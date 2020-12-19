@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <DefaultOutputType>Exe</DefaultOutputType>
+    <DefaultTargetFramework>netcoreapp3.1</DefaultTargetFramework>
+  </PropertyGroup>
+
+  <!--StyleCop-->
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="stylecop.json">
+      <CopyToOutputDirectory>false</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <AdditionalFiles Include="stylecop.json" />
+  </ItemGroup>
+
+  <!--StyleCop END-->
+</Project>
