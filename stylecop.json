@@ -13,7 +13,23 @@
       "documentInternalElements": false,
       "documentPrivateElements": false,
       "documentPrivateFields": false,
-      "fileNamingConvention": "stylecop"
+      "fileNamingConvention": "stylecop",
+      "excludeFromPunctuationCheck": [
+        "summary",
+        "example",
+        "para",
+        "c",
+        "exception",
+        "see",
+        "seealso",
+        "param",
+        "typeparam",
+        "paramref",
+        "typeparamref",
+        "list",
+        "inheritdoc",
+        "include"
+      ]
     },
 
     "orderingRules": {
