@@ -46,7 +46,7 @@ namespace ConsoleApp
         /// </summary>
         /// <param name="args">The arguments.</param>
         internal static void Main(string[] args)
-        {
+        {    
             var a = new[] { 1, 10, 100, 1000 };
             var aB = new[] { 1, 10, 100, 1000 };
         }

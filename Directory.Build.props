@@ -15,4 +15,8 @@
        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </AdditionalFiles>
   </ItemGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <CodeAnalysisRuleSet>..\Global.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
 </Project>
