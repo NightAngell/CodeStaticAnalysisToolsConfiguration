@@ -14,6 +14,11 @@ namespace ConsoleApp
         internal static void Main(string[] args)
 #pragma warning restore IDE0060 // Remove unused parameter
         {
+            var baseClass = new BaseClass("test");
+            if (baseClass == null)
+            {
+
+            }
         }
 
     }
