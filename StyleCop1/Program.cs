@@ -18,7 +18,7 @@ namespace ConsoleApp
         internal static void Main(string[] args)
 #pragma warning restore IDE0060 // Remove unused parameter
         {
-            var m_number = 5;
+            var m_number = 5; 
         }
 
     }
