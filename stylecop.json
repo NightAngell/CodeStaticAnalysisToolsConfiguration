@@ -1,5 +1,5 @@
 {
-  // WARNING! THIS IS ONE FILE LINKED TO MULTIPLE PROJECTS.
+  // WARNING! THIS IS ONE FILE LINKED (linked, not added) TO MULTIPLE PROJECTS.
   // Original file can be found inside 'Solution Items'
 
   "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",

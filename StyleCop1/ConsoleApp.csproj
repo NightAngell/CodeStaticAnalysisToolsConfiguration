@@ -5,8 +5,4 @@
     <TargetFramework>$(DefaultTargetFramework)</TargetFramework>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\sobta\source\repos\StyleCop1\StyleCop1\ConsoleApp.xml</DocumentationFile>
-  </PropertyGroup>
-
 </Project>
