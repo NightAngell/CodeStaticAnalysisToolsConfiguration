@@ -1,4 +1,0 @@
-﻿[*.cs]
-
-# Default severity for analyzer diagnostics with category 'StyleCop.CSharp.LayoutRules'
-dotnet_analyzer_diagnostic.category-StyleCop.CSharp.LayoutRules.severity = silent
