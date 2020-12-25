@@ -12,14 +12,15 @@ namespace ConsoleApp
 
     public class Program
     {
-        private int _xXDD = 5;
 
-#pragma warning disable IDE0060 // Remove unused parameter
         internal static void Main(string[] args)
-#pragma warning restore IDE0060 // Remove unused parameter
-        {
-            var m_number = 5; 
-        }
 
+        {
+            // Violation of SA1500BracesForMultiLineStatementsMustNotShareLine
+            if (true) {
+                int number = 5;
+                Console.WriteLine(number);
+            }
+        }
     }
 }
