@@ -1,19 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using ConsoleApp;
-using Lol = System;
-
-namespace ConsoleApp
+﻿namespace ConsoleApp
 {
     public class Program
     {
-        internal static void Main()
+        public Program()
         {
         }
 
-        public Program() 
+        internal static void Main()
         {
         }
     }
